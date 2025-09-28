@@ -1,19 +1,14 @@
+// types/index.ts
 export interface Feature {
   icon: string;
   title: string;
   description: string;
+  color: string;
 }
 
-export interface Testimonial {
-  id: number;
-  text: string;
-  author: string;
-  role: string;
-  initials: string;
-}
-
-export interface Step {
-  number: number;
+export interface WorkflowStep {
+  step: number;
   title: string;
   description: string;
+  image: string;
 }

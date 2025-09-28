@@ -1,25 +1,29 @@
-import Header from '../components/Header';
-import Hero from '../components/Hero';
-import AppPreview from '../components/AppPreview';
-import Features from '../components/Features';
-import HowItWorks from '../components/HowItWorks';
-import Testimonials from '../components/Testimonials';
-import Contact from '../components/Contact';
-import CTA from '../components/CTA';
-import Footer from '../components/Footer';
+// pages/index.tsx (Updated)
+import Head from 'next/head';
+import { Header } from '@/components/Layout/Header';
+import { Footer } from '@/components/Layout/Footer';
+import { Hero } from '@/components/Sections/Hero';
+import { Features } from '@/components/Sections/Features';
+import { Workflow } from '@/components/Sections/Workflow';
+import { CTA } from '@/components/Sections/CTA';
 
 export default function Home() {
   return (
-    <div>
-      <Header />
-      <Hero />
-      <AppPreview />
-      <Features />
-      <HowItWorks />
-      <Testimonials />
-      <Contact />
-      <CTA />
-      <Footer />
-    </div>
+    <>
+      <Head>
+        <title>Teilor - Client Management for Professional Tailors</title>
+        <meta name="description" content="Streamline your tailoring business with intuitive client management, measurement tracking, and business insights." />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+
+      <div className="min-h-screen bg-white">
+        <Header />
+        <Hero />
+        <Features />
+        <Workflow />
+        <CTA />
+        <Footer />
+      </div>
+    </>
   );
 }
