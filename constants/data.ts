@@ -27,10 +27,10 @@ export const FEATURES: Feature[] = [
     color: "from-orange-500 to-red-500"
   },
   {
-    icon: "⚡",
-    title: "Quick Actions",
-    description: "Add new clients instantly with the floating action button.",
-    color: "from-indigo-500 to-blue-500"
+  icon: "📅",
+  title: "Delivery Day",
+  description: "Set and manage delivery days for your clients with ease.",
+  color: "from-indigo-500 to-blue-500"
   },
   {
     icon: "🔒",

@@ -77,77 +77,7 @@ const DashboardMockup = () => (
     className="lg:w-1/2 flex justify-center"
   >
     <div className="relative">
-      <div className="w-80 h-96 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl shadow-2xl flex items-center justify-center p-6">
-        <div className="w-full h-full bg-white rounded-2xl shadow-lg p-4 flex flex-col">
-          {/* Header */}
-          <div className="flex justify-between items-center mb-6">
-            <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-tealor-blue rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">T</span>
-              </div>
-              <span className="font-bold text-gray-800">Teilor</span>
-            </div>
-            <div className="w-8 h-8 bg-gray-100 rounded-lg flex items-center justify-center">
-              <span className="text-gray-600">👤</span>
-            </div>
-          </div>
-          
-          {/* Stats */}
-          <div className="bg-gradient-to-r from-tealor-blue to-blue-600 rounded-xl p-4 text-white mb-4">
-            <div className="flex justify-between items-center">
-              <div>
-                <p className="text-sm opacity-90">Total Clients</p>
-                <p className="text-2xl font-bold">24</p>
-              </div>
-              <div className="text-sm bg-white/20 rounded-lg px-2 py-1">
-                September 2025
-              </div>
-            </div>
-          </div>
-          
-          {/* Search */}
-          <div className="bg-gray-100 rounded-lg p-3 mb-4 flex items-center">
-            <span className="text-gray-500 mr-2">🔍</span>
-            <input 
-              type="text" 
-              placeholder="Search clients..." 
-              className="bg-transparent w-full focus:outline-none text-sm"
-            />
-          </div>
-          
-          {/* Client List */}
-          <div className="space-y-3 flex-1 overflow-y-auto">
-            <ClientItem name="Sarah Johnson" type="Dress" />
-            <ClientItem name="Michael Chen" type="Suit" />
-            <ClientItem name="Emma Wilson" type="Gown" />
-            <ClientItem name="James Brown" type="Shirt" />
-          </div>
-          
-          {/* FAB */}
-          <motion.div 
-            animate={{ scale: [1, 1.1, 1] }}
-            transition={{ duration: 2, repeat: Infinity }}
-            className="absolute bottom-4 right-4 w-12 h-12 bg-tealor-blue rounded-full flex items-center justify-center shadow-lg"
-          >
-            <span className="text-white text-xl">+</span>
-          </motion.div>
-        </div>
-      </div>
-      
-      {/* Floating Elements */}
-      <FloatingElement 
-        animation={{ y: [0, -15, 0] }}
-        className="absolute -top-6 -left-6 w-16 h-16 bg-white shadow-xl"
-        icon="📏"
-        delay={0}
-      />
-      
-      <FloatingElement 
-        animation={{ y: [0, 15, 0] }}
-        className="absolute -bottom-6 -right-6 w-14 h-14 bg-white shadow-xl"
-        icon="👔"
-        delay={1}
-      />
+      <img src="/Onboarding.png" alt="Onboarding" className="w-80 h-96 object-contain rounded-3xl shadow-2xl bg-gradient-to-br from-blue-50 to-indigo-50 p-6" />
     </div>
   </motion.div>
 );
