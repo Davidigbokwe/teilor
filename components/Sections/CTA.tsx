@@ -72,6 +72,7 @@ export const CTA = () => (
             transition={{ duration: 0.6, delay: 0.3 }}
             className="w-full lg:w-auto lg:pl-4"
           >
+            {/*  */}
             <motion.a
               href="mailto:support@hallatech.com"
               whileHover={{ scale: 1.05 }}
