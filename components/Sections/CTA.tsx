@@ -30,10 +30,10 @@ export const CTA = () => (
             <div>
               <p className="text-sm text-gray-600 font-medium mb-1">Contact us</p>
               <a
-                href="mailto:support@Teilor.com"
+                href="mailto:support@hallatech.com"
                 className="text-lg font-semibold text-gray-900 hover:text-indigo-600 transition-colors duration-200 group"
               >
-                support@Teilor.com
+                support@hallatech.com
                 <span className="block w-0 group-hover:w-full h-0.5 bg-indigo-600 transition-all duration-300"></span>
               </a>
             </div>
@@ -72,7 +72,7 @@ export const CTA = () => (
             transition={{ duration: 0.6, delay: 0.3 }}
             className="w-full lg:w-auto lg:pl-4"
           >
-            {/*  */}
+            
             <motion.a
               href="mailto:support@hallatech.com"
               whileHover={{ scale: 1.05 }}
