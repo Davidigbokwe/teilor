@@ -12,7 +12,7 @@ export const Header = () => {
           transition={{ duration: 0.5 }}
           className="flex items-center"
         >
-          <img src="/Teilor.png" alt="Teilor Logo" className="w-[7rem] h-[3rem]" />
+          <img src="/Teilor.png" alt="Teilor Logo" className="w-28 h-10 md:w-36 md:h-12 object-contain" />
         </motion.div>
 
         {/* Desktop Menu */}

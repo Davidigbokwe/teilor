@@ -5,7 +5,7 @@ export const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <div className="flex items-center mb-4">
-              <img src="/Teilor.png" alt="Teilor Logo" className="w-[7rem] h-[3rem]" />
+              <img src="/Teilor.png" alt="Teilor Logo" className="w-24 h-8 md:w-28 md:h-10 object-contain" />
             </div>
             <p className="text-gray-400">Streamlining tailoring businesses worldwide.</p>
           </div>
