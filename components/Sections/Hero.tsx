@@ -36,7 +36,9 @@ export const Hero = () => {
               className="flex flex-col sm:flex-row gap-4 mt-8"
             >
               <motion.a
-                href="#appstore"
+                href="https://apps.apple.com/ng/app/teilorr/id6753590166"
+                target="_blank"
+                rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="inline-flex items-center gap-2 bg-black text-white px-4 py-2 rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-200 text-sm md:text-base md:px-6 md:py-3"
@@ -48,7 +50,9 @@ export const Hero = () => {
                 App Store
               </motion.a>
               <motion.a
-                href="#playstore"
+                href="https://play.google.com/store/apps/details?id=com.hallatech.teilorr"
+                target="_blank"
+                rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="inline-flex items-center gap-2 bg-black text-white px-4 py-2 rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-200 text-sm md:text-base md:px-6 md:py-3"
