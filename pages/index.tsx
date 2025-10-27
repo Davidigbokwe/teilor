@@ -14,6 +14,7 @@ export default function Home() {
         <meta name="description" content="Streamline your tailoring business with intuitive client management, measurement tracking, and business insights." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      {/* //.... */}
 
       <div className="min-h-screen bg-white">
         <Header />
